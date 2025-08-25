@@ -2,6 +2,6 @@
 FROM alpine:latest
 LABEL maintainer="pratiksdocker0"
 
-RUN echo "Hello from Jenkins Docker build!" > /message.txt
+RUN echo "Hello from Jenkins Docker build1!" > /message.txt
 
 CMD ["cat", "/message.txt"]
